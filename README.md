@@ -37,3 +37,12 @@ The results of all 6 machine learning models are summarized in the table below, 
 ![](images/br_forest_classifier_results.jpg)  
 #### Image 6 – Easy Ensemble AdaBoost Classifier Results  
 ![](images/easy_ensemble_AC_results.jpg)  
+
+
+## Summary  
+
+The resampling models of machine learning (Oversampling, SMOTE Oversampling, Undersampling and Combination), all provide balance accuracy scores and recall scores that are not particularly good, signifying that this method could approve high number of loans that are high risk of default. Therefor the resampling models do not seem ideal for this case.  
+The ensemble models (Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier), both provide higher balance accuracy than the resampling models, but the Easy Ensemble AdaBoost Classifier have a significant higher Balanced Accuracy and Recall (sensitivity) scores, of 93% and 94% respectively.   
+
+With the results the best machine learning model for the credit risk analysis is Easy Ensemble AdaBoost Classifier.
+
